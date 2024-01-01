@@ -29,7 +29,7 @@
         "removeDir": true,
         "removeFile": true,
         "renameFile": true,
-        "scope": [],
+        "scope": ["$DOCUMENT/**","$DESKTOP/**/**"],
         "writeFile": true
       },
       "dialog": {
@@ -60,7 +60,7 @@
       {
         "fullscreen": false,
         "resizable": true,
-        "title": "new-attemp",
+        "title": "COde Snipeds",
         "width": 800,
         "height": 600
       }

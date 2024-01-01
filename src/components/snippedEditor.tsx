@@ -1,5 +1,15 @@
+import Editor from "@monaco-editor/react";
+
 export default function snippedEditor() {
   return (
-    <div>snippedEditor</div>
+      <Editor 
+      theme="vs-dark"
+      defaultLanguage="swift"
+      options={
+        {
+          fontSize :15
+        }
+      }
+      />
   )
 }
